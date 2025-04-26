@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #2C3E50, #34495E, #1ABC9C, #9B59B6);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    color: white;
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 1000px;
+    padding: 40px;
+    width: 90%;
+    background: none; /* Removed background */
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    text-transform: capitalize;
+  }
+  
+  ul {
+    text-align: left;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    line-height: 1.8;
+  }
+  
+  li {
+    margin: 12px 0;
+    padding-left: 10px;
+    border-left: 3px solid #9B59B6;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 100% 50%;
+    }
+    50% {
+      background-position: 0% 50%;
+    }
+    75% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
