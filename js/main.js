@@ -19,12 +19,40 @@
 //                     break;
 // }
 
+// var kun = Number(prompt("Hafta kunining raqamini kiriting (1-7):"));
+
+// switch (kun) {
+//   case 1:
+//     console.log("Dushanba");
+//     break;
+//   case 2:
+//     console.log("Seshanba");
+//     break;
+//   case 3:
+//     console.log("Chorshanba");
+//     break;
+//   case 4:
+//     console.log("Payshanba");
+//     break;
+//   case 5:
+//     console.log("Juma");
+//     break;
+//   case 6:
+//     console.log("Shanba");
+//     break;
+//   case 7:
+//     console.log("Yakshanba");
+//     break;
+//   default:
+//     console.log("Noto'g'ri kun raqami kiritildi");
+// }
+
 // uy ishi
 
 // 1-misol
 // var son = Number(prompt(" istagan sonni kiriting"));
 // var result = son + 1;
-// console.log("Natija", result)
+// console.log("Natija:", result)
 
 
 //2-misol
@@ -55,9 +83,13 @@
 //     break;
 // }
 
-
-
 //4-misol
+// var tYil = Number(prompt("Tug'ilgan yilingizni kiriting"))
+// var hozirgiYil = 2025
+// var natija = hozirgiYil - tYil
+// console.log("Hozirgi yoshingiz:" , natija)
+
+//5-misol
 // var son1 = Number(prompt("Istagan 1-sonni kiriting"));
 // var son2 = Number(prompt("Istagan 2-sonni kiriting"));
 
@@ -73,35 +105,6 @@
 //         break;
 // }
 
-
-//5-misol
-// var kun = Number(prompt("Hafta kunining raqamini kiriting (1-7):"));
-
-// switch (kun) {
-//   case 1:
-//     console.log("Dushanba");
-//     break;
-//   case 2:
-//     console.log("Seshanba");
-//     break;
-//   case 3:
-//     console.log("Chorshanba");
-//     break;
-//   case 4:
-//     console.log("Payshanba");
-//     break;
-//   case 5:
-//     console.log("Juma");
-//     break;
-//   case 6:
-//     console.log("Shanba");
-//     break;
-//   case 7:
-//     console.log("Yakshanba");
-//     break;
-//   default:
-//     console.log("Noto'g'ri kun raqami kiritildi");
-// }
 
 
 //6-misol
